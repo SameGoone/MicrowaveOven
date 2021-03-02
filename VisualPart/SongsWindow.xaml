@@ -1,0 +1,17 @@
+﻿<Window x:Class="VisualPart.SongsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VisualPart"
+        mc:Ignorable="d"
+        Title="" Height="234.964" Width="415.728" Closing="Window_Closing" ResizeMode="NoResize">
+    <DockPanel>
+        <TextBlock DockPanel.Dock="Top" FontSize="22"> Что спеть? <LineBreak/></TextBlock>
+        <Button x:Name="PlayClassicButton" Content="Что-нибудь новогоднее" DockPanel.Dock="Top" Height="34" Click="PlayClassicButton_Click" FontSize="16"/>
+        <TextBlock Text="" DockPanel.Dock="Top"/>
+        <Button x:Name="PlayRemixButton" Content="Врубай модное, молодёжное" DockPanel.Dock="Top" Height="35" FontSize="16" Click="PlayRemixButton_Click"/>
+        <TextBlock Text="" DockPanel.Dock="Top"/>
+        <Button x:Name="PlayBuzovaButton" Content="Ольгу Бузову" DockPanel.Dock="Top" FontSize="16" Click="PlayBuzovaButton_Click"/>
+    </DockPanel>
+</Window>

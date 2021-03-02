@@ -1,0 +1,39 @@
+﻿<Window x:Class="VisualPart.InfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VisualPart"
+        mc:Ignorable="d"
+        Title="Справка" Height="584.922" Width="596.363" ResizeMode="NoResize" FontFamily="Calibri">
+    <ScrollViewer>
+        <DockPanel>
+            <TextBlock HorizontalAlignment="Center" TextAlignment="Center" DockPanel.Dock="Top" FontSize="16" FontWeight="Bold">Руководство пользования программным продуктом <LineBreak/>
+        "Моделирование работы бытового прибора на примере микроволновой печи"</TextBlock>
+            <TextBlock HorizontalAlignment="Left" TextAlignment="Left" DockPanel.Dock="Top" FontSize="16" Margin="30, 0"><LineBreak/>
+        Выполнил студент группы ПО-92б Овеченко Никита</TextBlock>
+            <TextBlock HorizontalAlignment="Left" TextAlignment="Left" TextWrapping="Wrap" DockPanel.Dock="Top" FontSize="16" Margin="30, 0"><LineBreak/>
+        1. Для добавления продукта в микроволновую печь, нажмите левой кнопкой мыши по кнопке с названием нужного продукта в области "Доступные продукты для разогревания". Нужный продукт появится в окне микроволновой печи.</TextBlock>
+            <TextBlock HorizontalAlignment="Left" TextAlignment="Left" TextWrapping="Wrap" DockPanel.Dock="Top" FontSize="16" Margin="30, 0"><LineBreak/>
+        2. Для перемещения продукта из микроволновой печи на стол и обратно, кликните ЛКМ по нужному продукту в окне микроволновой печи (или стола). Продукт переместится из окна микроволновой печи в окно стола (или наоборот).</TextBlock>
+            <TextBlock HorizontalAlignment="Left" TextAlignment="Left" TextWrapping="Wrap" DockPanel.Dock="Top" FontSize="16" Margin="30, 0"><LineBreak/>
+        3. Чтобы удалить продукт из программы, нажмите правой кнопкой мыши по нужному продукту в окне микроволновой печи или в окне стола и нажмите на появившуюся кнопку &quot;Удалить&quot;. Вы также можете удалить все продукты, находящиеся и на столе и в микроволновой печи, нажав кнопку &quot;Удалить все продукты&quot; на верхней панели.</TextBlock>
+            <TextBlock HorizontalAlignment="Left" TextAlignment="Left" TextWrapping="Wrap" DockPanel.Dock="Top" FontSize="16" Margin="30, 0"><LineBreak/>
+        4. Чтобы запустить процесс разогревания пищи, нажмите кнопку "Старт" на панели микроволновой печи. Запустится процесс разогревания пищи с автоматически установленным таймером на 30 секунд (если время для таймера не было установлено).</TextBlock>
+            <TextBlock HorizontalAlignment="Left" TextAlignment="Left" TextWrapping="Wrap" DockPanel.Dock="Top" FontSize="16" Margin="30, 0"><LineBreak/>
+        5. После запуска микроволновой печи цвет окна времени изменится на красный. В состоянии покоя этот цвет станет синим. <LineBreak/>
+        Это является индикатором состояния печи.</TextBlock>
+            <TextBlock HorizontalAlignment="Left" TextAlignment="Left" TextWrapping="Wrap" DockPanel.Dock="Top" FontSize="16" Margin="30, 0"><LineBreak/>
+        6. Вы можете установить время таймера. В течение этого времени будет происходить разогревание пищи после нажатия кнопки "Старт".</TextBlock>
+            <TextBlock HorizontalAlignment="Left" TextAlignment="Left" TextWrapping="Wrap" DockPanel.Dock="Top" FontSize="16" Margin="30, 0"><LineBreak/>
+        7. Вы можете регулировать скорость разогревания пищи, увеличивая или уменьшая мощность печи.</TextBlock>
+            <TextBlock HorizontalAlignment="Left" TextAlignment="Left" TextWrapping="Wrap" DockPanel.Dock="Top" FontSize="16" Margin="30, 0"><LineBreak/>
+        8. Чтобы приостановить работу микроволновой печи, нажмите кнопу "Пауза". При повтором нажатии этой кнопки работа печи будет остановлена со сбросом таймера.</TextBlock>
+            <TextBlock HorizontalAlignment="Left" TextAlignment="Left" TextWrapping="Wrap" DockPanel.Dock="Top" FontSize="16" Margin="30, 0"><LineBreak/>
+        9. Продукты, находящиеся на столе или в неработающей микроволновке, постепенно остывают.</TextBlock>
+            <TextBlock HorizontalAlignment="Left" TextAlignment="Left" TextWrapping="Wrap" DockPanel.Dock="Top" FontSize="16" Margin="30, 0"><LineBreak/>
+        10. Внимание! Вы не можете производить манипуляции с продуктами в микроволновой печи (удалять или добавлять) во время её работы.
+            Также, нет возможности изменить время таймера во время работы микроволновой печи.</TextBlock>
+        </DockPanel>
+    </ScrollViewer>
+</Window>
